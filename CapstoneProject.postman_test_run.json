@@ -1,0 +1,66 @@
+{
+	"id": "96d2a246-ff70-43a3-bc81-dff498ae94db",
+	"name": "CapstoneProject",
+	"timestamp": "2023-08-24T16:44:29.468Z",
+	"collection_id": "29328491-52b5e3fe-a7b6-4781-9597-9d8eb8b4a532",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-08-24T16:44:28.236Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "483052ee-5ade-4829-9f60-d46172d8cba9",
+			"name": "Positive",
+			"url": "https://reqres.in/api/users/2",
+			"time": 386,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				386
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "94e0662c-0ac1-4e8b-97f9-35f37cf11598",
+			"name": "Negative",
+			"url": "https://reqres.in/api/users/2",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				29
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 415,
+	"collection": {
+		"requests": [
+			{
+				"id": "483052ee-5ade-4829-9f60-d46172d8cba9",
+				"method": "GET"
+			},
+			{
+				"id": "94e0662c-0ac1-4e8b-97f9-35f37cf11598",
+				"method": "GET"
+			}
+		]
+	}
+}
